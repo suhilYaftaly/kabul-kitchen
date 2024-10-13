@@ -28,7 +28,10 @@ export default function MenuSection({ menu, title }: Props) {
                 component="img"
                 image={item.imgUrl || "https://via.placeholder.com/150"}
                 alt={item.name}
-                sx={{ width: 150, height: 150 }}
+                sx={{
+                  width: { sx: 200, sm: 150 },
+                  height: { sx: 200, sm: 150 },
+                }}
               />
             )}
             <CardContent>
