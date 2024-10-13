@@ -29,7 +29,7 @@
       "@constants/*": ["constants/*"],
       "@helpers/*": ["helpers/*"],
       "@functions/*": ["helpers/functions/*"],
-      "@menu/*": ["menu/*"]
+      "@hooks/*": ["hooks/*"]
     }
   },
   "include": ["src"]

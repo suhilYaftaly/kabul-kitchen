@@ -1,5 +1,5 @@
 import { Card, CardContent, CardMedia, Stack, Typography } from "@mui/material";
-import { MenuItem } from "menu/menu";
+import { MenuItem } from "@hooks/useMenuData";
 
 type Props = {
   menu: MenuItem[];
@@ -23,10 +23,10 @@ export default function MenuSection({ menu, title }: Props) {
               alignItems: "center",
             }}
           >
-            {item.imgUrl && (
+            {item.imageUrl && (
               <CardMedia
                 component="img"
-                image={item.imgUrl || "https://via.placeholder.com/150"}
+                image={item.imageUrl || "https://via.placeholder.com/150"}
                 alt={item.name}
                 sx={{
                   width: { sx: 200, sm: 150 },

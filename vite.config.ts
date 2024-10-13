@@ -14,7 +14,7 @@ export default defineConfig({
       "@constants": resolve(__dirname, "src/constants"),
       "@helpers": resolve(__dirname, "src/helpers"),
       "@functions": resolve(__dirname, "src/helpers/functions"),
-      "@menu": resolve(__dirname, "src/menu"),
+      "@hooks": resolve(__dirname, "src/hooks"),
     },
   },
 });
