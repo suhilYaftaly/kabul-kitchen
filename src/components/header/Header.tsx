@@ -30,7 +30,7 @@ export default function Header() {
       >
         <ChipTxt>Kabul</ChipTxt>
         <Typography variant="h6" sx={{ fontWeight: "900" }}>
-          Kabob
+          Kitchen
         </Typography>
       </Stack>
       <Button
